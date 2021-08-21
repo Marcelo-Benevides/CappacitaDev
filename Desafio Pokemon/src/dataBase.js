@@ -82,7 +82,7 @@ function curarPokemon(id) {
             pokemonFerido.hp = (pokemonFerido.hp + pocao) - 10
         } 
 
-    return `${pokemonFerido.nome}: Pokemon Curado! HP:${pokemonFerido.hp}`
+    return `${pokemonFerido.nome}: Curado! HP:${pokemonFerido.hp}`
 }
 
 module.exports = { salvarPokemons, mostrarPokemon, mostrarPokemons, atualizarPokemon, deletarPokemon, batalhaPokemon, curarPokemon }
