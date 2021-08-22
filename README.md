@@ -5,7 +5,7 @@ Na pasta "Exercícios Modulo1" se encontram 3 exercícios:
 2. Contem uma função que retorna a resolução do seguinte problema: "A soma de dois números é 180 e um deles é 42. Qual é o outro?";
 3. Contem uma funçao que retorna a resolução do seguinte problema: "Napoleão Bonaparte nasceu em 1769 e morreu com 52 anos. Em que ano morreu?"
 
-Na pasta "Projeto" encontra-se uma API utiizando NODE JS, que consiste em:
+Na pasta "Projeto" encontra-se uma API criada utiizando NODE JS, que consiste em:
 1. Salvar Pokemons;
 2. Listar todos os Pokemons salvos;
 3. Listar apenas um Pokemon;
