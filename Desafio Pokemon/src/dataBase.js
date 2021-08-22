@@ -25,12 +25,12 @@ function atualizarPokemon(id, pokemon){
 }
 
 function deletarPokemon(id) {
-    sequence_id = sequence_id - 1
+    sequence._id = sequence._id - 1
     const pokemonDeletado = pokemons[id]
     pokemons.splice(id, 1)
     pokemons.forEach(pokemon => {
         if(pokemon.id > id) {
-            pokemon.id = pokemon.id -1
+            pokemon.id = pokemon.id - 1
         }
     })
     return pokemonDeletado
